@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8038B2041E42AE3B00D9629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B2031E42AE3B00D9629A /* AppDelegate.swift */; };
+		8038B2061E42AE3B00D9629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B2051E42AE3B00D9629A /* ViewController.swift */; };
+		8038B2091E42AE3B00D9629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038B2071E42AE3B00D9629A /* Main.storyboard */; };
+		8038B20C1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8038B20A1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld */; };
+		8038B20E1E42AE3B00D9629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038B20D1E42AE3B00D9629A /* Assets.xcassets */; };
+		8038B2111E42AE3B00D9629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038B20F1E42AE3B00D9629A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8038B2001E42AE3B00D9629A /* myBluetoothie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBluetoothie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8038B2031E42AE3B00D9629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8038B2051E42AE3B00D9629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8038B2081E42AE3B00D9629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8038B20B1E42AE3B00D9629A /* myBluetoothie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myBluetoothie.xcdatamodel; sourceTree = "<group>"; };
+		8038B20D1E42AE3B00D9629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8038B2101E42AE3B00D9629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8038B2121E42AE3B00D9629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8038B1FD1E42AE3B00D9629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8038B1F71E42AE3B00D9629A = {
+			isa = PBXGroup;
+			children = (
+				8038B2021E42AE3B00D9629A /* myBluetoothie */,
+				8038B2011E42AE3B00D9629A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8038B2011E42AE3B00D9629A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8038B2001E42AE3B00D9629A /* myBluetoothie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8038B2021E42AE3B00D9629A /* myBluetoothie */ = {
+			isa = PBXGroup;
+			children = (
+				8038B2031E42AE3B00D9629A /* AppDelegate.swift */,
+				8038B2051E42AE3B00D9629A /* ViewController.swift */,
+				8038B2071E42AE3B00D9629A /* Main.storyboard */,
+				8038B20D1E42AE3B00D9629A /* Assets.xcassets */,
+				8038B20F1E42AE3B00D9629A /* LaunchScreen.storyboard */,
+				8038B2121E42AE3B00D9629A /* Info.plist */,
+				8038B20A1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld */,
+			);
+			path = myBluetoothie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8038B1FF1E42AE3B00D9629A /* myBluetoothie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8038B2151E42AE3B00D9629A /* Build configuration list for PBXNativeTarget "myBluetoothie" */;
+			buildPhases = (
+				8038B1FC1E42AE3B00D9629A /* Sources */,
+				8038B1FD1E42AE3B00D9629A /* Frameworks */,
+				8038B1FE1E42AE3B00D9629A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myBluetoothie;
+			productName = myBluetoothie;
+			productReference = 8038B2001E42AE3B00D9629A /* myBluetoothie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8038B1F81E42AE3B00D9629A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jing Wang";
+				TargetAttributes = {
+					8038B1FF1E42AE3B00D9629A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8038B1FB1E42AE3B00D9629A /* Build configuration list for PBXProject "myBluetoothie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8038B1F71E42AE3B00D9629A;
+			productRefGroup = 8038B2011E42AE3B00D9629A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8038B1FF1E42AE3B00D9629A /* myBluetoothie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8038B1FE1E42AE3B00D9629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8038B2111E42AE3B00D9629A /* LaunchScreen.storyboard in Resources */,
+				8038B20E1E42AE3B00D9629A /* Assets.xcassets in Resources */,
+				8038B2091E42AE3B00D9629A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8038B1FC1E42AE3B00D9629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8038B20C1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld in Sources */,
+				8038B2061E42AE3B00D9629A /* ViewController.swift in Sources */,
+				8038B2041E42AE3B00D9629A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8038B2071E42AE3B00D9629A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8038B2081E42AE3B00D9629A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8038B20F1E42AE3B00D9629A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8038B2101E42AE3B00D9629A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8038B2131E42AE3B00D9629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8038B2141E42AE3B00D9629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8038B2161E42AE3B00D9629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myBluetoothie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "infinity-coding7.myBluetoothie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8038B2171E42AE3B00D9629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myBluetoothie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "infinity-coding7.myBluetoothie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8038B1FB1E42AE3B00D9629A /* Build configuration list for PBXProject "myBluetoothie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8038B2131E42AE3B00D9629A /* Debug */,
+				8038B2141E42AE3B00D9629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8038B2151E42AE3B00D9629A /* Build configuration list for PBXNativeTarget "myBluetoothie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8038B2161E42AE3B00D9629A /* Debug */,
+				8038B2171E42AE3B00D9629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8038B20A1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8038B20B1E42AE3B00D9629A /* myBluetoothie.xcdatamodel */,
+			);
+			currentVersion = 8038B20B1E42AE3B00D9629A /* myBluetoothie.xcdatamodel */;
+			path = myBluetoothie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8038B1F81E42AE3B00D9629A /* Project object */;
+}
