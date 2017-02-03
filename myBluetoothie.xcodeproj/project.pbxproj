@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8038B2041E42AE3B00D9629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B2031E42AE3B00D9629A /* AppDelegate.swift */; };
-		8038B2061E42AE3B00D9629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B2051E42AE3B00D9629A /* ViewController.swift */; };
 		8038B2091E42AE3B00D9629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038B2071E42AE3B00D9629A /* Main.storyboard */; };
 		8038B20C1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8038B20A1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld */; };
 		8038B20E1E42AE3B00D9629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038B20D1E42AE3B00D9629A /* Assets.xcassets */; };
 		8038B2111E42AE3B00D9629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038B20F1E42AE3B00D9629A /* LaunchScreen.storyboard */; };
+		8038B2191E42AE8400D9629A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B2181E42AE8400D9629A /* Utils.swift */; };
+		8038B21B1E42B11500D9629A /* BleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038B21A1E42B11500D9629A /* BleAdapter.swift */; };
+		80B856BD1E43E29D001AB192 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B856BC1E43E29D001AB192 /* Device.swift */; };
+		80B856BF1E43E700001AB192 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B856BE1E43E700001AB192 /* DeviceTableViewCell.swift */; };
+		80F4189E1E44E4CA00E15108 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4189D1E44E4CA00E15108 /* DeviceListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8038B2001E42AE3B00D9629A /* myBluetoothie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBluetoothie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8038B2031E42AE3B00D9629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8038B2051E42AE3B00D9629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8038B2081E42AE3B00D9629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8038B20B1E42AE3B00D9629A /* myBluetoothie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myBluetoothie.xcdatamodel; sourceTree = "<group>"; };
 		8038B20D1E42AE3B00D9629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8038B2101E42AE3B00D9629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8038B2121E42AE3B00D9629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8038B2181E42AE8400D9629A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8038B21A1E42B11500D9629A /* BleAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleAdapter.swift; sourceTree = "<group>"; };
+		80B856BC1E43E29D001AB192 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		80B856BE1E43E700001AB192 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		80F4189D1E44E4CA00E15108 /* DeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				8038B2031E42AE3B00D9629A /* AppDelegate.swift */,
-				8038B2051E42AE3B00D9629A /* ViewController.swift */,
+				8038B21A1E42B11500D9629A /* BleAdapter.swift */,
+				80B856BC1E43E29D001AB192 /* Device.swift */,
+				80B856BE1E43E700001AB192 /* DeviceTableViewCell.swift */,
 				8038B2071E42AE3B00D9629A /* Main.storyboard */,
+				80F4189D1E44E4CA00E15108 /* DeviceListViewController.swift */,
 				8038B20D1E42AE3B00D9629A /* Assets.xcassets */,
 				8038B20F1E42AE3B00D9629A /* LaunchScreen.storyboard */,
 				8038B2121E42AE3B00D9629A /* Info.plist */,
 				8038B20A1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld */,
+				8038B2181E42AE8400D9629A /* Utils.swift */,
 			);
 			path = myBluetoothie;
 			sourceTree = "<group>";
@@ -99,6 +111,7 @@
 				TargetAttributes = {
 					8038B1FF1E42AE3B00D9629A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A3GHL87D55;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8038B20C1E42AE3B00D9629A /* myBluetoothie.xcdatamodeld in Sources */,
-				8038B2061E42AE3B00D9629A /* ViewController.swift in Sources */,
+				8038B21B1E42B11500D9629A /* BleAdapter.swift in Sources */,
+				80B856BD1E43E29D001AB192 /* Device.swift in Sources */,
 				8038B2041E42AE3B00D9629A /* AppDelegate.swift in Sources */,
+				80F4189E1E44E4CA00E15108 /* DeviceListViewController.swift in Sources */,
+				8038B2191E42AE8400D9629A /* Utils.swift in Sources */,
+				80B856BF1E43E700001AB192 /* DeviceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3GHL87D55;
 				INFOPLIST_FILE = myBluetoothie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "infinity-coding7.myBluetoothie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3GHL87D55;
 				INFOPLIST_FILE = myBluetoothie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "infinity-coding7.myBluetoothie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +322,7 @@
 				8038B2171E42AE3B00D9629A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
