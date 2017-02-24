@@ -10,6 +10,9 @@
 import UIKit
 
 class Utils {
+    
+    static let sharedInstance = Utils()
+    
     func info(message: String, ui: UIViewController, cbOK: @escaping (Void) -> Void) {
         let dialog = UIAlertController(title: "OK", message: message, preferredStyle: UIAlertControllerStyle.alert)
         let OKAction = UIAlertAction(title: "OK", style: .default){ (action) in cbOK() }

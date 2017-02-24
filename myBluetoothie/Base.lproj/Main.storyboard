@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="106"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fz3-py-VD8" id="zYe-id-ymJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijS-Yc-C9W" userLabel="DeviceName">
@@ -65,8 +65,12 @@
                             <outlet property="delegate" destination="Q3E-7a-ved" id="Ugo-oD-ZyT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Bluetooth Device List" id="9ny-9P-OPU">
-                        <barButtonItem key="leftBarButtonItem" title="Scan" id="zz8-EM-CLt"/>
+                    <navigationItem key="navigationItem" title="Bluetooth Device List" id="UVy-qb-MKe">
+                        <barButtonItem key="leftBarButtonItem" title="Scan" id="WEO-b0-kph">
+                            <connections>
+                                <action selector="onScan:" destination="Q3E-7a-ved" id="CM6-1b-HcM"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbH-RF-OeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
